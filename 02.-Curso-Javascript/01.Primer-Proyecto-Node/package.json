@@ -1,0 +1,25 @@
+{
+  "name": "hola-mundo",
+  "version": "1.0.0",
+  "description": "Este es mi primer proyecto con Node en OpenBootCamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "saludar": "node hola-mundo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirSheesus06/Curso-JavaScript.git"
+  },
+  "keywords": [
+    "holamundo",
+    "first-project"
+  ],
+  "author": "SirSheesus06",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirSheesus06/Curso-JavaScript/issues"
+  },
+  "homepage": "https://github.com/SirSheesus06/Curso-JavaScript#readme"
+}
