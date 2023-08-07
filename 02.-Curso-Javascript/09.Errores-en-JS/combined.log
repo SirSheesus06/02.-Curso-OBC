@@ -1,0 +1,15 @@
+{"level":"info","message":"Esto es un mensaje de infromacion por consola","service":"user-service"}
+{"level":"warn","message":"Esto es un mensaje de advertencia por consola","service":"user-service"}
+{"level":"error","message":"Esto es un mensaje de error por consola","service":"user-service"}
+{"level":"info","message":"Esto es un mensaje de infromacion por consola"}
+{"level":"debug","message":"Esto es un mensaje de debug por consola"}
+{"level":"warn","message":"Esto es un mensaje de advertencia por consola"}
+{"level":"error","message":"Esto es un mensaje de error por consola"}
+{"level":"info","message":"Esto es un mensaje de infromacion por consola"}
+{"level":"debug","message":"Esto es un mensaje de debug por consola"}
+{"level":"warn","message":"Esto es un mensaje de advertencia por consola"}
+{"level":"error","message":"Esto es un mensaje de error por consola"}
+{"level":"info","message":"Esto es un mensaje de infromacion por consola"}
+{"level":"debug","message":"Esto es un mensaje de debug por consola"}
+{"level":"warn","message":"Esto es un mensaje de advertencia por consola"}
+{"level":"error","message":"Esto es un mensaje de error por consola"}
