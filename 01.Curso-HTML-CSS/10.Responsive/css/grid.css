@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: cornflowerblue;
+    display: grid;
+    /* Disposicion de Columnas */
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 200px 15vh 5rem;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: 2px solid;
+}
+
+.item {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+}
+
+.item-08 {
+    grid-area: 3 / 1 / 3 / 3;
+    /* Desde Fila 3 Columna 1*/
+    /* Desde Fila 3 Columna 3*/
+}
+
+.item-09 {
+    grid-area: 4 / 1 / 4 / 4;
+    /* Desde Fila 4 Columna 1 */
+    /* Hasta Fila 4 Columna 4 */ 
+}

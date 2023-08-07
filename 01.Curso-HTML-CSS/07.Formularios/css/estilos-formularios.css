@@ -1,0 +1,13 @@
+/* Formularios */
+
+.input {
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border: solid 2px;
+    outline: none;
+}
+
+.input[type="password"] {
+    color: red;
+}

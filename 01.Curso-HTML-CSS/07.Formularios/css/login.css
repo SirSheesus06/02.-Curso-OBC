@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #161717;
+    color: #FFFFFF;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 450px;
+}
+
+.buttons {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+/* Boton de Google */
+
+.google-btn {
+    background-color: #1A73E8;
+    border: solid 2px #1A73E8;
+    border-radius: 4px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.google-btn:hover {
+    opacity: 0.75;
+}
+
+.google-btn span {
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.google-btn picture {
+    width: 36px;
+    height: 36px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img {
+    width: 75%;
+}
+
+/* Boton de Twitter */
+
+.twitter-btn {
+    background-color: #F2F2F2;
+    color: #6E6D7A;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    border-radius: 4px;
+}
+
+.twitter-btn:hover {
+    background-color: #ddd;
+}
+
+/* Separador */
+
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator span {
+    color: #8b8b8b;
+}
+
+/* Formulario e Inputs */
+
+.section-inputs {
+    background-color: #161717;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label input {
+    width: 80%;
+    background-color: #d3d0d0;
+    border: 4px solid #d3d0d0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+label span {
+    font-weight: 700;
+}
+
+.w-100 {
+    width: 113%;
+}
+
+label input:hover {
+    background-color: #454045;
+    border: 4px solid #454045;
+}
+
+label input:focus {
+    background-color: #454045;
+    border: 4px solid #454045;
+}
+
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-label input[type=checkbox] {
+    width: 20px;
+}
+
+.checkbox-label span {
+    font-weight: 400;
+}
+
+.submit-btn {
+    background-color: #ea4c89;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14pt;
+    font-weight: 500;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    opacity: 0.75;
+}

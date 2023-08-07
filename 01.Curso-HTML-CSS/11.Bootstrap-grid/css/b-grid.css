@@ -1,0 +1,28 @@
+.col {
+    background-color: violet;
+}
+
+.col-sm {
+    background-color:bisque;
+}
+
+.col-md {
+    background-color: rgb(243, 56, 56);
+}
+
+.col-lg {
+    background-color: rgb(100, 241, 57);
+}
+
+.col-xl {
+    background-color: rgb(248, 250, 124);
+}
+
+.col-xxl {
+    background-color: rgb(43, 116, 134);
+}
+
+.row div {
+    margin: 0.25rem;
+    gap: 0.25rem;
+}

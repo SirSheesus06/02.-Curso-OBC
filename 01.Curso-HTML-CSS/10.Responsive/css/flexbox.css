@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+    padding: 0.5rem;
+    background-color: cadetblue;
+
+    /* Cambiar Direccion de Ejes Principal */
+    /* Por Defecto viene en Row (Fila) */
+    flex-direction: row; /* Column o Row para eje Principal */
+    /* Eje Principal */
+    justify-content: space-around;
+    /* Eje Secundario */
+    align-items: center;
+
+    /* Acomodar con Wrap */
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: burlywood;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+.item-3,
+.item-1 {
+    align-self: stretch;
+}

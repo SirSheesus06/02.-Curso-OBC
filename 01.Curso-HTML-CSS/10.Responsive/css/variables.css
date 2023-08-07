@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+:root {
+    --colorPrincipal: rgb(27, 97, 177);
+    --anchoPrincipal: 10rem;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.titulo {
+    color: var(--colorPrincipal);
+}
+
+.footer {
+    color: var(--colorPrincipal);
+}
+
+.container {
+    max-width: var(--anchoPrincipal);
+}
