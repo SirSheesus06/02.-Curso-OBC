@@ -1,0 +1,56 @@
+/* Posicionamiento en CSS */
+
+div {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+}
+
+/* Posicionamiento relativo */
+/* Se posiciona segun lo que deberia ser static*/
+.relative {
+    position: relative;
+    left: 300px;
+}
+
+/* Posicionamiento fijado*/
+/* Se posiciona fijo donde se indique*/
+
+.fixed {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: blueviolet;
+}
+
+/* Posicionamiento Absoluto */
+/* Se posiciona de forma absoluta de su elemento padre, en este caso BODY.*/
+
+.absolute {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.relative.container {
+    width: 800px;
+    height: 100px;
+    background-color: darkcyan;
+}
+
+div.absolute {
+    margin: 0px;
+}
+
+/* Posicionamiento Sticky */
+/* Se posiciona similar al fixed, solo que esta en posicion static, pero
+cuando se hace scroll, queda fijado donde le digamos */
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    background-color: hotpink;
+}

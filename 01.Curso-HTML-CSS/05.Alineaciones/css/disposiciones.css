@@ -1,0 +1,27 @@
+/* Disposiciones  */
+
+.div-1, .div-2 {
+    background-color: cornflowerblue;
+    /* display: block; por defecto en los DIV */
+}
+
+.span-1 {
+    background-color: forestgreen;
+    float: right;
+    /* display: inline; por defecto en SPAN 
+    No se puede modificar Ancho y Alto*/
+}
+
+.span-2 {
+    background-color: forestgreen;
+    float: left;
+    /* display: inline; por defecto en SPAN 
+    No se puede modificar Ancho y Alto*/
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    /* dsiplay: inline-block; en las IMAGENES
+    Se puede modificar Altura y el Ancho*/
+}

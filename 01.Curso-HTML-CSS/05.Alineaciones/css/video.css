@@ -1,0 +1,20 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+}
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+}
+
+.header{
+    height: 100%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

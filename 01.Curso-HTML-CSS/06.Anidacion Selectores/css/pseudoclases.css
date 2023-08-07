@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    text-align: center;
+}
+
+.hover {
+    background-color: cadetblue;
+    width: 50vw;
+    height: 50vh;
+}
+
+.hover:hover {
+    background-color: chocolate;
+}
+
+.listado {
+    background-color: aqua;
+}
+
+.listado li:first-child {
+    color: fuchsia;
+}
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: darkcyan;
+}
+
+a:active {
+    color: greenyellow;
+}

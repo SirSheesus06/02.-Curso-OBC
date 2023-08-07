@@ -1,0 +1,46 @@
+/* Overflow en CSS */
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor-hidden {
+    border: 2px solid;
+    padding: 10px;
+    margin: 20px;
+    background-color: burlywood;
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+}
+.contenedor-scroll {
+    border: 2px solid;
+    padding: 10px;
+    margin: 20px;
+    background-color: burlywood;
+    width: 300px;
+    height: 150px;
+    overflow: scroll;
+}
+.contenedor-visible {
+    border: 2px solid;
+    padding: 10px;
+    margin: 20px;
+    background-color: burlywood;
+    width: 300px;
+    height: 150px;
+    overflow: visible;
+}
+.contenedor-auto {
+    border: 2px solid;
+    padding: 10px;
+    margin: 20px;
+    background-color: burlywood;
+    width: 300px;
+    height: 150px;
+    overflow: auto;
+}

@@ -1,0 +1,79 @@
+body {
+    display: block;
+    text-align: center;
+    
+}
+
+/* Color en los selectores */
+
+h1 { 
+    color: blue;
+}
+
+/* h3 {
+    color: red;
+} */
+
+p {
+    color: green;
+}
+
+/* Colores de texto */
+
+.color1 {
+    color: #313b72;
+}
+.color2 {
+    color: rgb(126, 224, 129);
+}
+.color3 {
+    color: rgba(70, 34, 85, 0.6);
+}
+
+/* Imagenes de Fondo */
+
+.fondo-1 { 
+    padding: 50px;
+    margin-bottom: 20px;
+    background-image: url("https://i.pinimg.com/originals/a2/59/9d/a2599d0dd50857bed8bb3eefa1185548.jpg");
+    background-position: center bottom;
+}
+.fondo-2 {
+    padding: 50px;
+    margin-bottom: 20px;
+    background-image: url("https://wallpapershome.com/images/pages/pic_h/18930.jpg");
+    background-position: center center;
+}
+
+.fondo-3 {
+    padding: 50px;
+    background-image: url("Avatar.jpg");
+    background-position: center center;
+}
+
+/* Tipos de Tamaños */
+
+.ancho {
+    background-color: dodgerblue;
+    width: 200px;
+}
+
+.alto {
+    background-color: firebrick;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+/* Tarjeta */
+
+.tarjeta {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #313b72;
+}
+
+.titulo {
+    background-color: grey;
+    border-radius: 5px;
+    border: solid;
+}

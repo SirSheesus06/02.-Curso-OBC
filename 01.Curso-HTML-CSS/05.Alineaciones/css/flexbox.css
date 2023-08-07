@@ -1,0 +1,43 @@
+/* Posicionamiento con Flexbox */
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    height: 800px;
+    border: 2px solid black;
+    /* flex-wrap: wrap; */
+}
+
+.contenido-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: 2px solid black;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+
+.contenido-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    border: 2px solid black;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+
+.contenido-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkolivegreen;
+    border: 2px solid black;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}

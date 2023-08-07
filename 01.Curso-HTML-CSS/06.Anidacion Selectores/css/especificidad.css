@@ -1,0 +1,15 @@
+h1 {
+    color: blueviolet;
+}
+
+#parrafo {
+    color: chocolate;
+}
+
+.parrafo {
+    color: darkslategrey !important;
+}
+
+p {
+    color: firebrick;
+}
