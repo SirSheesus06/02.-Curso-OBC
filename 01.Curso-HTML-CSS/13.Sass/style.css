@@ -1,0 +1,60 @@
+.btn {
+  border: none;
+  cursor: pointer;
+  background-color: #3946c0;
+  color: white;
+  border-radius: 5px;
+  width: 5rem;
+  padding: 1rem;
+  font-size: 14pt;
+  margin: 1rem 0;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+
+.container {
+  width: 100%;
+  background-color: rgb(222, 233, 233);
+  min-height: 100vh;
+  padding: 0.5rem;
+}
+
+.listado {
+  width: 10rem;
+  background-color: darkcyan;
+  padding: 0.5rem;
+}
+.listado ul {
+  margin: 0 0.5rem;
+}
+.listado ul li {
+  list-style: upper-roman;
+}
+.listado ul li:hover {
+  color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  color: #381872;
+  color: #381872;
+  text-transform: capitalize;
+  width: 50rem;
+  background-color: #292525;
+  text-align: center;
+}
+
+p {
+  color: #381872;
+  color: #381872;
+  text-transform: capitalize;
+  width: 50rem;
+  background-color: rgb(191, 207, 252);
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

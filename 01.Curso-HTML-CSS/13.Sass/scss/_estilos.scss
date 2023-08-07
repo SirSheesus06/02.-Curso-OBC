@@ -1,0 +1,44 @@
+@use "mixins";
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    color: $text-color;
+    @include mixins.formatText(#292525);
+    text-align: center;
+}
+
+p {
+    color: $text-color;
+    @include mixins.formatText;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(222, 233, 233);
+    min-height: 100vh;
+    padding: 0.5rem;
+}
+
+.listado {
+    width: 10rem;
+    background-color: darkcyan;
+    padding: 0.5rem;
+
+    ul {
+        margin: 0 0.5rem;
+
+        li {
+            list-style:upper-roman;
+
+            &:hover {
+                color: green;
+            }
+        }
+    }
+}

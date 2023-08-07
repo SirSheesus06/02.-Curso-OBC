@@ -1,0 +1,12 @@
+html {
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen {
+    width: 300px;
+}

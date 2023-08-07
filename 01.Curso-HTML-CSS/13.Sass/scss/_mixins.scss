@@ -1,0 +1,7 @@
+$text-color: #381872;
+@mixin formatText($bg-color: rgb(191, 207, 252)) {
+    color: $text-color;
+    text-transform: capitalize;
+    width: 50rem;
+    background-color: $bg-color;
+}
